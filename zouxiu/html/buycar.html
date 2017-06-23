@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"><meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/ba.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/buycar.css"/>
+		<link rel="stylesheet" type="text/css" href=""/>
+	</head>
+	<body>
+		<header>
+			<span class="flt back">&#xe7e9;</span><span class="title">商购物车</span><span class="frt share">去结算</span>
+		</header>
+		
+		
+		<div class="nav">
+			商品数量:1
+			应付总额(不含运费):<a href="javascript:;">￥199</a>
+		</div>
+		<div class="wrapper" id="wrapper">
+			<div class="imgList" id="scrollbar">
+		
+				<ul class="content">
+					<!--<li>
+						<img src="../img/xxx.jpg" />
+						<div class="conn">
+							<p class="one"><span class="flt first">EXPRIT气质V领玫红</span><span class="frt">&#xe836;</span></p>
+							<p class="two"><span>单价：<a href="javascript:;">￥199</a></span><span class="frt">L</span></p>
+							<p class="three"><span class="flt">数量：</span><input type="button" value="-"><input type="text" value="1"><input type="button" value="+"></p>
+						</div>
+					</li>-->
+				</ul>
+			</div>
+		</div>	
+		
+		<footer>
+			<a href="../index.html" class="botnav">
+			<strong>&#xe64f;</strong>
+				<p>首页</p>
+			</a>
+			<a class="botnav">
+				<strong>&#xe795;</strong>
+				<p>分类</p>
+			</a>
+			<a class="botnav active" style="position: relative;">
+				<div class="carNum"></div>
+				<strong>&#xe63f;</strong>
+				<p>购物车</p>
+			</a>
+			<a href="show.html" class="botnav">
+				<strong>&#xe792;</strong>
+				<p>我的秀</p>
+			</a>
+			<a class="botnav">
+				<strong>&#xe85c;</strong>
+				<p>更多</p>
+			</a>
+		</footer>
+		
+		<script type="text/javascript" src="../js/zepto_1.1.3.js"></script>
+		<script type="text/javascript" src="../js/buycar.js"></script>
+		<script type="text/javascript" src="../js/lib/iscroll-min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".botnav").click(function(){
+					$(this).addClass("active").siblings().removeClass("active")
+				})
+			})
+		</script>
+	</body>
+</html>

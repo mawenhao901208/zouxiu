@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0  minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/ba.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lib/swiper-3.3.1.min.css"/>
+		
+	</head>
+	<body>
+		<header>
+			<em>ZXIU</em>&nbsp;
+			<span>走秀</span>
+		</header>
+		
+		<div class="search">
+			<div class="search-m">
+				<label>&#xe620;</label><input type="text" placeholder="请输入搜索内容"/>
+			</div>
+		</div>
+		
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/banner.jpg"/></div>
+				<div class="swiper-slide"><img src="img/banner.jpg"/></div>
+				<div class="swiper-slide"><img src="img/banner.jpg"/></div>
+				<div class="swiper-slide"><img src="img/banner.jpg"/></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		
+		<div class="wrapper" id="wrapper">
+			<div class="imgList" id="scrollbar">
+				<ul>
+					<!--<li>
+						<div class = "img-list"></div>
+							<img src="img/sahngpin.jpg"/ class="flt" style="width: 1.74rem;height: 1.73rem;">
+						</div>
+						<div class="frt shangpin-t">
+							<h4>0元抽奖!走秀携古尔莎为你开启,价值28880元的土耳其...</h4>
+							<a href="javascript:;" class="frt addCar">&#xe63f;</a>
+							<p>￥0<span>￥28880</span></p>
+							<strong style="color: #000000;font-size: 0.24rem;">0折</strong>
+							
+						</div>
+					</li>-->	
+				</ul>
+			</div>	
+		</div>
+		<input type="hidden" id="page"/>
+		<footer>
+			<a class="botnav active">
+			<strong>&#xe64f;</strong>
+				<p>首页</p>
+			</a>
+			<a class="botnav">
+				<strong>&#xe795;</strong>
+				<p>分类</p>
+			</a>
+			<a href="html/buycar.html" class="botnav" style="position: relative;">
+				<div class="carNum"></div>
+				<strong>&#xe63f;</strong>
+				<p>购物车</p>
+			</a>
+			<a href="html/show.html" class="botnav">
+				<strong>&#xe792;</strong>
+				<p>我的秀</p>
+			</a>
+			<a class="botnav">
+				<strong>&#xe85c;</strong>
+				<p>更多</p>
+			</a>
+		</footer>
+	
+		<script type="text/javascript" src="css/lib/swiper-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/lib/iscroll-min.js"></script>
+		<script type="text/javascript" src="css/lib/zepto.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			var swiper = new Swiper('.swiper-container',{
+				autoplay:2000,
+				loop:true,
+				autoplayDisableOnInteraction:false,
+				pagination:".swiper-pagination"
+			});
+			$(function(){
+				$(".botnav").click(function(){
+					$(this).addClass("active").siblings().removeClass("active")
+				})
+			})
+		</script>
+	</body>
+</html>

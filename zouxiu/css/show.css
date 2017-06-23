@@ -1,0 +1,15 @@
+html,body{width: 100%;height: 100%;overflow: hidden;}
+header{width: 100%;height: 0.86rem;background: #cc3366;border-top: 1px solid #ccc;border-bottom: 1px solid #333333;color: #FFFFFF;text-align: center;line-height: 0.86rem;font-size: 0.4rem;font-weight: 600;box-sizing: border-box;padding: 0 0.2rem;}
+header .back{font-family: iconfont;display: inline-block;font-size: 0.5rem;color: rgba(0,0,0,.5);}
+.content{width: 100%;position: absolute;top: 0.85rem;bottom: 0.96rem;background: #f7f7f7;box-sizing: border-box;border-top: 1px solid #333;padding: 0.63rem 0.5rem 0.58rem 0.3rem;}
+.message{width: 100%;height: 1.62rem;}
+.msg p{font-size: 0.3rem;color: #000000;margin: 0.3rem 0;}
+.msg a{display: inline-block;width: 1.04rem;line-height: 0.52rem;text-align: center;color: #FFFFFF;background: #CC3366;border-radius: 5px;}
+.nav-list{height: 4.1rem;width: 5.6rem; background: #FFFFFF;float: left;margin-top: 0.84rem;border: 1px solid #ccc;border-radius: 8px;}
+.nav-list a{float: left;width: 100%;line-height: 1rem;font-size: 0.36rem;box-sizing: border-box;padding: 0 0.28rem;color: #000000;border-bottom: 1px solid #CCCCCC;}
+footer{width: 100%;height: 0.96rem;background: #484850;position: fixed;left: 0;bottom: 0;z-index: 20;color: #FFFFFF;}
+
+footer .botnav{display: block; width: 20%;height: 0.90rem;float: left;text-align: center;padding-top:0.05rem;border-top: 5px solid #484850;color: #fff;}
+.carNum{position: absolute;width: 20px;height: 20px;background: #cc3366;border-radius: 100%;right: 12px;top: -2px;color: #FFFFFF;display: none;}
+footer .botnav strong{font-size: 0.4rem;font-family: iconfont;}
+footer a.active{border-top: 5px solid #cc3366;}

@@ -1,0 +1,27 @@
+html,body{width: 100%;height: 100%;overflow: hidden;}
+ul{list-style: none;}
+header{width: 100%;height: 0.88rem;background: #cc3366;position: fixed;left: 0;top: 0;color: #FFFFFF;text-align: center;line-height: 0.88rem;border-bottom: 1px solid #000000;z-index: 20;}
+header em{font-size: 0.28rem;}
+header span{font-size: 0.4rem;}
+.search{width: 100%;height: 0.86rem;border-top: 1px solid #ccc;border-bottom: 1px solid #000;margin-top: 0.89rem;background: #666666;}
+.search .search-m{display:block; width: 80%;height: 0.56rem;background: #FFFFFF;margin: 0.15rem auto 0;border-radius: 10px;padding:0 0.15rem;}
+.search .search-m label{display: inline-block;width: 0.56rem;height: 0.56rem;font-family: iconfont;line-height: 0.56rem;text-align: center;font-size: 0.38rem;font-weight: 900;}
+.search .search-m input{display:inline-block;width: 4.4rem;height: 0.32rem;border: 0;outline: none;font-size: 0.24rem;line-height: 0.32rem;}
+.swiper-container{width: 100%;height: 2.5rem;border-top: 1px solid;border-bottom: 1px solid;border-color: #333333;}
+.swiper-container img{width: 100%;height: 2.5rem;}
+
+.wrapper{width: 100%; position: absolute;top: 4.28rem;bottom: 0.96rem;overflow: hidden;}
+.wrapper .imgList{width: 100%; position: relative; overflow: hidden;}
+.wrapper ul{width: 100%; overflow: hidden;}
+.wrapper ul li{width: 100%;height: 2.18rem;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #333333;box-sizing: border-box;padding: 0.2rem 0.52rem 0 0.15rem;}
+.shangpin-t{width: 3.82rem;height: 1.9rem;}
+.shangpin-t h4{font-size: 0.26rem;color: #000000;padding: 0.14rem 0;font-weight: 600;}
+.shangpin-t p{width: 50%;font-size: 0.28rem;color: #ff3366;font-weight: 900;}
+.shangpin-t p span{display:inline-block; font-size: 0.2rem;color: #CCCCCC;font-weight: 100;text-decoration: line-through;ss}
+.shangpin-t a{display: inline-block;width: 1.18rem;height: 0.52rem;background: #cc3366;text-align: center;line-height: 0.52rem;color: #FFFFFF;font-size: 0.38rem;font-family: iconfont;border-radius: 8px;margin-top: 0.1rem;}
+footer{width: 100%;height: 0.96rem;background: #484850;position: fixed;left: 0;bottom: 0;z-index: 20;color: #FFFFFF;}
+
+footer .botnav{display: block; width: 20%;height: 0.90rem;float: left;text-align: center;padding-top:0.05rem;border-top: 5px solid #484850;color: #fff;}
+.carNum{position: absolute;width: 20px;height: 20px;background: #cc3366;border-radius: 100%;right: 12px;top: -2px;color: #FFFFFF;display: none;}
+footer .botnav strong{font-size: 0.4rem;font-family: iconfont;}
+footer a.active{border-top: 5px solid #cc3366;}
